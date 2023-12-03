@@ -36,11 +36,19 @@ body {
     padding-bottom: 30px;
 }
 
+.p-bottom-15{
+    padding-bottom: 15px;
+}
+
 a.link {
   text-decoration: none;
 }
 
 .section-gradient {
+    margin-bottom: 30px;
+    @media screen and (min-width: $sm) {
+    margin-bottom: 60px;
+      }
   min-height: 100vh;
   background: var(
     --gradient-supersoft,
@@ -186,6 +194,20 @@ a.link {
     font-style: normal;
     line-height: normal;
     color: $blue;
+}
+
+.p-section {font-weight: $bold;
+    font-family: Montserrat;
+    font-size: 16px;
+    padding-bottom: 30px;
+    @media screen and (min-width: $sm) {
+    padding-bottom: 60px;
+      }
+    font-style: normal;
+    line-height: 162.5% ;
+    color: $blue;
+    font-weight: 400;
+    color: white;
 }
 
 .nav-link-h {
