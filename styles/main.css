@@ -147,6 +147,23 @@ body {
   }
 }
 
+.margin-bottom-60px {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 576px) {
+  .margin-bottom-60px {
+    margin-bottom: 60px;
+  }
+}
+
+.p-top-10 {
+  padding-top: 10px;
+}
+
+.p-bottom-30 {
+  padding-bottom: 30px;
+}
+
 a.link {
   text-decoration: none;
 }
@@ -278,6 +295,27 @@ a.link {
   font-weight: 700;
 }
 
+.h2-section {
+  font-weight: 700;
+  font-family: Montserrat;
+  font-size: 38px;
+  font-style: normal;
+  line-height: normal;
+  background: var(--gradient-text-red-reversed, linear-gradient(90deg, #ef8080 0.84%, #f0145a 99.96%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.h4-section {
+  font-weight: 700;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+  color: #24a3ff;
+}
+
 .nav-link-h {
   color: blue;
 }
@@ -287,6 +325,22 @@ a.link {
     font-weight: 700;
     font-size: 16px;
   }
+}
+
+.link-section {
+  color: #24a3ff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.link-section.active, .link-section:hover {
+  color: #f0145a;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .offcanvas {
