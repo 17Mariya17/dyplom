@@ -212,6 +212,11 @@ a.link {
   row-gap: 18px;
   grid-template-areas: "info" "logo" "nav";
 }
+.header-grid__info {
+  grid-area: info;
+  display: flex;
+  justify-content: space-between;
+}
 @media screen and (min-width: 768px) {
   .header-grid {
     grid-template-areas: "logo info" "logo nav";
@@ -222,6 +227,7 @@ a.link {
 }
 .header-grid__info {
   grid-area: info;
+  gap: 3px;
 }
 .header-grid__nav {
   grid-area: nav;
@@ -259,8 +265,13 @@ a.link {
   width: 6px;
   background-color: #cacadb;
   border-radius: 50%;
-  display: inline-block;
+  display: none;
   right: 10px;
+}
+@media screen and (min-width: 576px) {
+  .adress-item:before {
+    display: inline-block;
+  }
 }
 
 .bold {
@@ -358,9 +369,11 @@ a.link {
 
 .carousel-inner {
   padding-left: 0px;
+  padding-top: 30px;
 }
 @media screen and (min-width: 768px) {
   .carousel-inner {
     padding-left: 60px;
+    padding-top: 0;
   }
 }/*# sourceMappingURL=main.css.map */

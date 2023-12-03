@@ -55,8 +55,10 @@
   
   .carousel-inner {
     padding-left: 0px;
+    padding-top: 30px;
     @media screen and (min-width: $md) {
       padding-left: 60px;
+      padding-top: 0;
     }
   }
   
