@@ -156,8 +156,21 @@ body {
   }
 }
 
+.margin-bottom-60-0px {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 1200px) {
+  .margin-bottom-60-0px {
+    margin-bottom: 60px;
+  }
+}
+
 .p-top-10 {
   padding-top: 10px;
+}
+
+.p-top-30 {
+  padding-top: 30px;
 }
 
 .p-bottom-30 {
@@ -315,6 +328,14 @@ a.link {
 
 .size-14px {
   font-size: 14px;
+}
+
+.blue-2 {
+  color: #323264;
+}
+
+.background-grey {
+  background-color: #F5F5FA;
 }
 
 .h2-section {
@@ -506,7 +527,8 @@ a.link {
 }
 @media screen and (min-width: 576px) {
   .partner-icon__7 {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 }
 .partner-icon__8 {
@@ -515,7 +537,8 @@ a.link {
 }
 @media screen and (min-width: 576px) {
   .partner-icon__8 {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 }
 .partner-icon__9 {
@@ -524,7 +547,8 @@ a.link {
 }
 @media screen and (min-width: 576px) {
   .partner-icon__9 {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 }
 .partner-icon__10 {
@@ -533,7 +557,8 @@ a.link {
 }
 @media screen and (min-width: 576px) {
   .partner-icon__10 {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 }
 .partner-icon__11 {
@@ -542,7 +567,8 @@ a.link {
 }
 @media screen and (min-width: 576px) {
   .partner-icon__11 {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 }
 .partner-icon__12 {
@@ -551,7 +577,8 @@ a.link {
 }
 @media screen and (min-width: 576px) {
   .partner-icon__12 {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 }
 
