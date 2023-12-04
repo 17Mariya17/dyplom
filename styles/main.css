@@ -635,6 +635,10 @@ a.link {
   border-top: 4px solid #E6E6F0;
 }
 
+.border-footer {
+  border-top: 2px solid #E6E6F0;
+}
+
 .carousel-indicators.carousel-indicators-h {
   position: relative;
   margin: 0;
