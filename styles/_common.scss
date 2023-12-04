@@ -326,17 +326,20 @@ a.link {
   border-radius: 12px;
   overflow: hidden;
   background-color: #f5f5fa;
-  border: 1px solid red;
-  padding-right: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: $md) {
+    flex-direction: row;
+      }
 }
 
 .padding-30 {
   padding: 30px;
 }
 
-.carousel-inner-team   {border: 1px solid black;
-}
-
-.padding-left-20 {
-  padding-left: 20px;
+.padding-20 {
+  padding: 0 20px;
 }
