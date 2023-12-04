@@ -165,8 +165,16 @@ body {
   }
 }
 
+.flex-1 {
+  flex: 1;
+}
+
 .p-top-10 {
   padding-top: 10px;
+}
+
+.p-top-15 {
+  padding-top: 15px;
 }
 
 .p-top-30 {
@@ -330,12 +338,28 @@ a.link {
   font-size: 14px;
 }
 
+.size-12px {
+  font-size: 12px;
+}
+
+.blue {
+  color: #24a3ff;
+}
+
 .blue-2 {
   color: #323264;
 }
 
+.grey-3 {
+  color: #b3b3ba;
+}
+
 .background-grey {
   background-color: #F5F5FA;
+}
+
+.background-white {
+  background-color: #Fff;
 }
 
 .h2-section {
@@ -498,6 +522,13 @@ a.link {
   padding: 35px 10px;
 }
 
+.publications-img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .partner-icon {
   display: flex;
   justify-content: center;
@@ -525,7 +556,7 @@ a.link {
   display: none;
   background-color: #C71C36;
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .partner-icon__7 {
     display: flex;
     justify-content: center;
@@ -535,7 +566,7 @@ a.link {
   display: none;
   background-color: #DCF3F9;
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .partner-icon__8 {
     display: flex;
     justify-content: center;
@@ -545,7 +576,7 @@ a.link {
   display: none;
   background-color: #EAEAEA;
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .partner-icon__9 {
     display: flex;
     justify-content: center;
@@ -555,7 +586,7 @@ a.link {
   display: none;
   background-color: #282240;
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .partner-icon__10 {
     display: flex;
     justify-content: center;
@@ -565,7 +596,7 @@ a.link {
   display: none;
   background-color: #1D4568;
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .partner-icon__11 {
     display: flex;
     justify-content: center;
@@ -575,7 +606,7 @@ a.link {
   display: none;
   background-color: #000000;
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .partner-icon__12 {
     display: flex;
     justify-content: center;
@@ -598,6 +629,10 @@ a.link {
 
 .padding-20 {
   padding: 0 20px;
+}
+
+.border-publications {
+  border-top: 4px solid #E6E6F0;
 }
 
 .carousel-indicators.carousel-indicators-h {
