@@ -328,6 +328,37 @@ a.link {
   background-color: #f5f5fa;
 }
 
+.partners {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid red;
+  display: flex;
+  align-self: center;
+}
+
+.card-icon {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  padding: 35px 10px;
+  border-right: 1px solid var(--grey);
+  border-bottom: 1px solid var(--grey);
+    }
+
+.partners-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 35px 10px;
+}
+
+.partner-icon-1 {
+  background-color: #1C4280;
+  display: flex;
+  align-self: center;
+}
+
+
 .row {
   display: flex;
   flex-direction: column;
