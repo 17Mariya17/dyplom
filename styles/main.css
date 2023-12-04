@@ -477,12 +477,6 @@ a.link {
   padding: 35px 10px;
 }
 
-.a {
-  display: flex;
-  align-items: center;
-  border: 1px solid red;
-}
-
 .partner-icon {
   display: flex;
   justify-content: center;
