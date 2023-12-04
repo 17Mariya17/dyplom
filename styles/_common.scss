@@ -1,12 +1,15 @@
 $rounded-bottom: 0px 0px 12px 12px;
 $grey-1: #cacadb;
 $grey-2: #e7e7f2;
+$grey-3: #b3b3ba;
 $pink: #f0145a;
 $blue: #24a3ff;
 $md: 768px;
 $sm: 576px;
 $bold: 700;
-
+$normal: 400;
+$size-16px: 16px;
+$size-14px: 14px;
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Montserrat:wght@400;500;700&family=Poppins:wght@200;400;700&display=swap');
 
@@ -173,6 +176,9 @@ a.link {
 }
 
 .bold {font-weight: $bold;}
+.normal {font-weight: $normal;}
+.size-16px {font-size: $size-16px;}
+.size-14px {font-size: $size-14px;}
 
 .h2-section {font-weight: $bold;
     font-family: Montserrat;
@@ -186,6 +192,25 @@ a.link {
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+}
+
+.h2-section-2 {font-weight: $bold;
+  font-family: Montserrat;
+  font-size: 38px;
+  font-style: normal;
+  line-height: normal;
+      background: var(
+        --gradient-text-red-reversed,
+        linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+.p-grey {
+  font-family: Montserrat;
+  color: $grey-3;
 }
 
 .h4-section {font-weight: $bold;
@@ -302,6 +327,7 @@ a.link {
   overflow: hidden;
   background-color: #f5f5fa;
   border: 1px solid red;
+  padding-right: 20px;
 }
 
 .padding-30 {
@@ -309,4 +335,8 @@ a.link {
 }
 
 .carousel-inner-team   {border: 1px solid black;
+}
+
+.padding-left-20 {
+  padding-left: 20px;
 }
