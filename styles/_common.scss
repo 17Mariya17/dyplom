@@ -6,6 +6,7 @@ $grey-4: #E6E6F0;
 $pink: #f0145a;
 $blue: #24a3ff;
 $blue-2: #323264;
+$navy-dark:#46466E;
 $lg: 992px;
 $xl: 1200px;
 $md: 768px;
@@ -157,6 +158,34 @@ a.link {
   }
 }
 
+.footer-grid {
+  padding: 30px 0;
+  display: grid;
+  row-gap: 18px;
+  &__info {
+    grid-area: info;
+    display: flex;
+    justify-content: space-between;
+  }
+  grid-template-areas: "info" "nav" "logo";
+  @media screen and (min-width: $md) {
+    grid-template-areas: "info logo" "nav logo";
+  }
+  &__logo {
+    grid-area: logo;
+  }
+  &__info {
+    grid-area: info;
+    gap: 3px;
+  }
+  &__nav {
+    grid-area: nav;
+    gap: 3px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .btn {
   &-sm {
     background-color: transparent;
@@ -198,6 +227,7 @@ a.link {
   }
 }
 
+.navy-dark {color: $navy-dark;}
 .bold {font-weight: $bold;}
 .normal {font-weight: $normal;}
 .size-16px {font-size: $size-16px;}

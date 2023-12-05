@@ -281,6 +281,36 @@ a.link {
   grid-area: nav;
 }
 
+.footer-grid {
+  padding: 30px 0;
+  display: grid;
+  row-gap: 18px;
+  grid-template-areas: "info" "nav" "logo";
+}
+.footer-grid__info {
+  grid-area: info;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .footer-grid {
+    grid-template-areas: "info logo" "nav logo";
+  }
+}
+.footer-grid__logo {
+  grid-area: logo;
+}
+.footer-grid__info {
+  grid-area: info;
+  gap: 3px;
+}
+.footer-grid__nav {
+  grid-area: nav;
+  gap: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .btn-sm {
   background-color: transparent;
   border: none;
@@ -320,6 +350,10 @@ a.link {
   .adress-item:before {
     display: inline-block;
   }
+}
+
+.navy-dark {
+  color: #46466E;
 }
 
 .bold {
