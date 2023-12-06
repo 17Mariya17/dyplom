@@ -346,6 +346,18 @@ a.link {
 .btn-sm.active, .btn-sm:hover {
   background-color: #f0145a;
 }
+.btn-sm-team {
+  background-color: transparent;
+  border: none;
+  color: #b3b3ba;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 12px;
+}
+.btn-sm-team.active, .btn-sm-team:hover {
+  background-color: #f0145a;
+  color: white;
+}
 
 .navbar-toggler.hlegal-toggler {
   border: none;
@@ -474,6 +486,13 @@ a.link {
     padding-bottom: 60px;
   }
 }
+.p-section-team {
+  color: #b3b3ba;
+}
+
+.gap-15 {
+  gap: 15px;
+}
 
 .nav-link-h {
   color: blue;
@@ -486,6 +505,21 @@ a.link {
   }
 }
 .nav-link-h.active, .nav-link-h:hover {
+  color: #f0145a;
+  -webkit-text-decoration: underline #f0145a;
+          text-decoration: underline #f0145a;
+}
+.nav-link-h-team {
+  color: blue;
+}
+@media screen and (min-width: 576px) {
+  .nav-link-h-team {
+    color: #24a3ff;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+.nav-link-h-team.active, .nav-link-h-team:hover {
   color: #f0145a;
   -webkit-text-decoration: underline #f0145a;
           text-decoration: underline #f0145a;

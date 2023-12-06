@@ -218,9 +218,20 @@ a.link {
     &:hover {
       background-color: $pink;
     }
+    &-team {
+      background-color: transparent;
+      border: none ;
+      color: $grey-3;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 12px;
+      &.active,
+      &:hover {
+        background-color: $pink;
+        color: white;
+      }
   }
-}
-
+}}
 
 .navbar-toggler.hlegal-toggler {
   border: none;
@@ -312,7 +323,10 @@ a.link {
     color: $blue;
     font-weight: 400;
     color: white;
+    &-team {color: $grey-3;}
 }
+
+.gap-15 {gap: 15px;}
 
 .nav-link-h {
   color: blue;
@@ -325,6 +339,19 @@ a.link {
   &:hover {
       color: $pink;
       text-decoration: underline $pink; 
+    }
+    &-team { color: blue;
+      @media screen and (min-width: $sm) {
+        color: $blue;
+        font-weight: $bold;
+        font-size: 16px;
+      }
+      &.active,
+      &:hover {
+          color: $pink;
+          text-decoration: underline $pink; 
+        }
+
     }
 }
 
