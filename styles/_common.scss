@@ -321,6 +321,17 @@ a.link {
     font-weight: $bold;
     font-size: 16px;
   }
+  &.active,
+  &:hover {
+      color: $pink;
+      text-decoration: underline $pink; 
+    }
+}
+
+.hover-pink:hover {
+  color: $pink;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .link-section {
@@ -358,7 +369,17 @@ a.link {
   cursor: pointer;
   &__icon {
     fill: $grey-1;
+    &.active,
+    &:hover {
+    fill: $pink;
+    cursor: pointer;
+  } 
   }
+  &.active,
+  &:hover {
+    border: 1px solid $pink;
+    cursor: pointer;
+  } 
 }
 
 .carousel-img {

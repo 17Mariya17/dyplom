@@ -485,6 +485,17 @@ a.link {
     font-size: 16px;
   }
 }
+.nav-link-h.active, .nav-link-h:hover {
+  color: #f0145a;
+  -webkit-text-decoration: underline #f0145a;
+          text-decoration: underline #f0145a;
+}
+
+.hover-pink:hover {
+  color: #f0145a;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
 .link-section {
   color: #24a3ff;
@@ -520,6 +531,14 @@ a.link {
 }
 .btn-circle__icon {
   fill: #cacadb;
+}
+.btn-circle__icon.active, .btn-circle__icon:hover {
+  fill: #f0145a;
+  cursor: pointer;
+}
+.btn-circle.active, .btn-circle:hover {
+  border: 1px solid #f0145a;
+  cursor: pointer;
 }
 
 .carousel-img {
